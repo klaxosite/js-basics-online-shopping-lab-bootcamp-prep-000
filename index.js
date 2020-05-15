@@ -48,9 +48,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  if(item != cart.itemName{
-    
-  }
+
 }
 
 function placeOrder(cardNumber) {
