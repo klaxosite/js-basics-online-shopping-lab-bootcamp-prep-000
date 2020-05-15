@@ -30,6 +30,7 @@ function viewCart() {
     for (let i = 0; i < cart.length - 1; i++){
       test += `${cart[i].itemName} at $${cart[i].itemPrice},`
     }
+    return test
 
 
   }
