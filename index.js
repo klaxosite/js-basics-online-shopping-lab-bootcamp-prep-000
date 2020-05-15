@@ -39,9 +39,9 @@ function viewCart() {
 
 
 function total() {
-  var totals = 0
+  let totals = 0
   for (let i = 0; i < cart.length; i++){
-    totals = total + cart[i].itemPrice
+    totals = totals + cart[i].itemPrice
   }
   return totals
 }
