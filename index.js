@@ -48,7 +48,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  if(item != cart.itemName{
+    return "That item is not in your cart"
+  }
 }
 
 function placeOrder(cardNumber) {
