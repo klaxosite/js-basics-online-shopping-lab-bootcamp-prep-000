@@ -28,7 +28,7 @@ function viewCart() {
   }else{
     var test = "In your cart, you have "
     for (let i = 0; i < cart.length; i++){
-      test += `${cart[i].itemName} at $${cart[i].itemPrice},`
+      test += `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
     return test + ` and ${cart[cart.length - 1].itemName} at $${cart[cart.length - 1].itemPrice}.`
 
